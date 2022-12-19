@@ -24,75 +24,53 @@
         --bs-primary-rgb: 247, 145, 29;
         --bs-secondary-rgb: 42, 56, 143;
       }
+
+      #hero {
+        background: url(img/hero-image.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        padding-top: 16rem;
+        padding-bottom: 16rem;
+      }
     </style>
   </head>
 
-  <body class="mb-5 bg-light">
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col-sm-12 col-md-6 d-flex align-items-center">
-          <div class="bg-white shadow-lg rounded p-5 text-center">
-            <img src="img/logo.png" alt="learnovat" width="128">
-
-            <h1 class="fw-bold mt-5 text-secondary" style="letter-spacing: 2px;">L<span
-                style="color: orange;">EAR</span>NOVAT</h1>
-            <h3>"We are on a mission to make study abroad dream simpler"</h3>
-          </div>
-        </div>
-
-        <div class="col-sm-12 col-md-6 text-center d-flex align-items-center">
-          <div class="w-100">
-            <img src="img/teach.svg" alt="learnovat" width="100%">
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container my-5">
-      <div class="row">
-        <div class="col-md-6 mx-auto py-5 text-center">
-          <h3>Become our recruitment partner and help aspiring students around you.</h3>
+  <body class="mb-5">
+    <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Learnovate</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
         </div>
       </div>
+    </nav>
 
-      <div class="row">
-        <div class="col-12">
-          <div class="card bg-primary">
-            <div class="card-body p-5 shadow">
-              <!-- <h5 class="fw-bold">Learnovat</h5> -->
-              <h5 class="fw-bold mb-5">What is in it for you?</h5>
-              <div class="row">
-                <div class="col-sm-12 col-md-4 mb-4">
-                  <div class="card shadow">
-                    <img src="img/student.svg" class="card-img-top" alt="l">
-                    <div class="card-body text-center">
-                      <h5 class="card-title fw-bold">For Students</h5>
-                      <p class="card-text">Create your profile and get access to knowledge bank, application process and
-                        connect with our admission counsellor near you.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-4 mb-4">
-                  <div class="card shadow">
-                    <img src="img/rec-partner.svg" class="card-img-top" alt="l">
-                    <div class="card-body text-center">
-                      <h5 class="card-title fw-bold">For Recruitment partner</h5>
-                      <p class="card-text">Start your home entrepreneurship journey by becoming part of our existing
-                        recruitment partners at Learnovat.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-4 mb-4">
-                  <div class="card shadow">
-                    <img src="img/university.svg" class="card-img-top" alt="l">
-                    <div class="card-body text-center">
-                      <h5 class="card-title fw-bold">For Universities</h5>
-                      <p class="card-text">Collaborate with us to attract international students by having thousands of
-                        recruitment partners working for you.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+    <div id="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="text-center">
+              <h1 class="bg-white d-inline-block p-3">Learnovate</h1> <br>
+              <h3 class="bg-white d-inline-block p-3">Connecting international students to Indian Education.</h3>
             </div>
           </div>
         </div>
@@ -100,13 +78,22 @@
     </div>
 
     <div class="container mt-5">
+      <div class="row text-center">
+        <div class="col-md-6 mx-auto">
+          <h3>Learnovate is an ecosystem to help you do what you do best: help students around to achieve thrie study in India dream.</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
       <div class="row">
-        <div class="col-md-6 mx-auto py-5">
+        <div class="col-md-12 col-sm-12 py-5">
           <h3 class="text-center text-primary fw-bold">Advantages of become recruitment partner with us.</h3>
 
           <hr>
 
-          <div class="d-flex align-items-center mt-4">
+          <div class="row">
+            <div class="col-sm-12 col-md-4 d-flex align-items-center mt-4">
             <img src="/img/check.png" alt="check" width="32" class="me-4">
 
             <div>
@@ -117,7 +104,7 @@
             </div>
           </div>
 
-          <div class="d-flex align-items-center mt-4">
+          <div class="col-sm-12 col-md-4 d-flex align-items-center mt-4">
             <img src="/img/check.png" alt="check" width="32" class="me-4">
 
             <div>
@@ -128,7 +115,7 @@
             </div>
           </div>
 
-          <div class="d-flex align-items-center mt-4">
+          <div class="col-sm-12 col-md-4 d-flex align-items-center mt-4">
             <img src="/img/check.png" alt="check" width="32" class="me-4">
 
             <div>
@@ -139,7 +126,7 @@
             </div>
           </div>
 
-          <div class="d-flex align-items-center mt-4">
+          <div class="col-sm-12 col-md-4 d-flex align-items-center mt-4">
             <img src="/img/check.png" alt="check" width="32" class="me-4">
             <div>
               <h5 class="mb-0">Grow Infinitely</h5>
@@ -149,7 +136,7 @@
             </div>
           </div>
 
-          <div class="d-flex align-items-center mt-4">
+          <div class="col-sm-12 col-md-4 d-flex align-items-center mt-4">
             <img src="/img/check.png" alt="check" width="32" class="me-4">
             <div>
               <h5 class="mb-0">Transparnt Payments </h5>
@@ -159,17 +146,7 @@
             </div>
           </div>
 
-          <div class="d-flex align-items-center mt-4">
-            <img src="/img/check.png" alt="check" width="32" class="me-4">
-            <div>
-              <h5 class="mb-0">More Schools </h5>
-              <p>
-                You can work with 1,000+ schools.
-              </p>
-            </div>
-          </div>
-
-          <div class="d-flex align-items-center mt-4">
+          <div class="col-sm-12 col-md-4 d-flex align-items-center mt-4">
             <img src="/img/check.png" alt="check" width="32" class="me-4">
             <div>
               <h5 class="mb-0">Free training and materials </h5>
@@ -178,50 +155,42 @@
               </p>
             </div>
           </div>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="container mt-5">
       <div class="row">
-        <div class="col-md-8 mx-auto text-center">
-          <img src="img/webinar.svg" alt="web" width="512">
-          <h2 class="fw-bold bg-primary p-4 text-white">Want to become a recruitment partner and start your home entrepreneur journey?</h2>
-          <h3 class="mt-5">Join our free webinar.</h3>
-          <h5>October 30, 2022 at 11 AM</h5>
-        </div>
-      </div>
-
-      <div class="row mt-5">
-        <div class="col-md-6 mx-auto mb-4 p-5 bg-white shadow">
-
-          <div class="text-center">
-            <h4 class="fw-bold">Register your spot now</h4>
-            <small>Limited slots available.</small>
+        <div class="col-sm-12 col-md-4 mb-4">
+          <div class="card shadow">
+            <img src="img/student.svg" class="card-img-top" alt="l">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">For Students</h5>
+              <p class="card-text">Create your profile and get access to knowledge bank, application process and
+                connect with our admission counsellor near you.</p>
+            </div>
           </div>
-
-          <hr>
-
-          <form action="" class="mt-4">
-            <div class="mb-3">
-              <label for="name" class="form-label">Name</label>
-              <input type="text" name="name" class="form-control" id="name">
-            </div>
-            <div class="mb-3">
-              <label for="phone_number" class="form-label">Phone Number</label>
-              <input type="text" class="form-control" id="phone_number">
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="email">
-            </div>
-            <button type="submit" class="btn btn-primary w-100">Register For Webinar</button>
-          </form>
         </div>
-
-        <div class="col-12 text-center">
-          <img src="img/whatsapp.svg" alt="whatsapp" height="32">
-          <a href="#">Chat with us now</a>
+        <div class="col-sm-12 col-md-4 mb-4">
+          <div class="card shadow">
+            <img src="img/rec-partner.svg" class="card-img-top" alt="l">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">For Recruitment partner</h5>
+              <p class="card-text">Start your home entrepreneurship journey by becoming part of our existing
+                recruitment partners at Learnovat.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 mb-4">
+          <div class="card shadow">
+            <img src="img/university.svg" class="card-img-top" alt="l">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">For Universities</h5>
+              <p class="card-text">Collaborate with us to attract international students by having thousands of
+                recruitment partners working for you.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
